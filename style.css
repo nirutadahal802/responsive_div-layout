@@ -1,0 +1,40 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	color: whitesmoke;
+}
+p{
+	font-size: 25px;
+}
+.main{
+	height: auto;
+	width: 100%;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: #B2BCBE;
+	transition: all 0.2 linear;
+}
+.content1, .content2, .content3, .content4, .content5{
+	box-shadow: 0 0 20px #CFEAF0;
+	flex: 1 1 200px;
+	margin: 20px;
+	border-radius: 3px;
+}
+.content1{
+	background: red;
+}
+.content2{
+	background: blue;
+}
+.content3{
+	background: pink;
+}
+.content4{
+	background: seagreen;
+}
+.content5{
+	background: dimgray;
+}
